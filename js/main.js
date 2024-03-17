@@ -170,14 +170,3 @@ function changeHeight () {
 }
 window.addEventListener('load', changeHeight);
 window.addEventListener('resize', changeHeight);
-
-//vypisuje aktualni rok ve footeru
-
-//let newDate = new Date;
-//let newYear = newDate.getFullYear();
-//let year = document.getElementById("year");
-
-//function changeYear () {
-//	year.innerHTML = newYear;}
-
-year.addEventListener('load', year.innerHTML=2024);
