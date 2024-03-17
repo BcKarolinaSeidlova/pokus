@@ -18,7 +18,7 @@ let newDate = new Date;
 let newYear = newDate.getFullYear();
 let year = document.getElementById("year");
 
-
+year.innerHTML = "2018 - "+newYear;
 
 //pri zmene velikosti se resetuje sticky menu (u navigace i historie)
 window.addEventListener('resize', resize) 
