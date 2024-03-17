@@ -14,7 +14,7 @@ let head = document.getElementsByClassName('header')[0];
 let minus = document.getElementById('minus');
 let plus = document.getElementById('plus');
     
-let newDate = new Date();
+let newDate = new Date;
 let newYear = newDate.getFullYear();
 let year = document.getElementById("year");
 
@@ -180,4 +180,4 @@ window.addEventListener('resize', changeHeight);
 //function changeYear () {
 //	year.innerHTML = newYear;}
 
-year.addEventListener('load', year.innerHTML=newYear);
+year.addEventListener('load', year.innerHTML=2024);
