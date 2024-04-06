@@ -8,7 +8,10 @@ body {
 
 }
 
-
+iframe {
+	width: 90vw;
+	height: auto;
+}
 
 .content {
 
