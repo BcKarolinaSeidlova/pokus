@@ -8,11 +8,6 @@ body {
 
 }
 
-iframe {
-	width: 90vw;
-	height: 90vh;
-}
-
 .content {
 
 	display: flex;
