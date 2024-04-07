@@ -18,6 +18,13 @@
 
 	<link rel="stylesheet" href="css/resp.css">
 
+	<script>
+         window.onload = function() {
+            var iframe = document.getElementById("myiframe");
+            iframe.width = iframe.contentWindow.document.body.scrollWidth;
+            iframe.height = iframe.contentWindow.document.body.scrollHeight;
+         }
+	</script>
 </head>
 
 <body class="content">
@@ -42,11 +49,6 @@
 
 	</footer>
 	
-	<script>
-   var iframe = document.getElementById("myiframe");
-   iframe.width = iframe.contentWindow.document.body.scrollWidth;
-   iframe.height = iframe.contentWindow.document.body.scrollHeight;
-	</script>
 
 </body>
 
