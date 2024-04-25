@@ -1,16 +1,16 @@
 var prvni = document.getElementById("Prvni");
-var prvniO = document.getElementById("PrvniO");
+var DIV1 = document.getElementById("PrvniO");
 
 var druhy = document.getElementById("Druhy");
-var druhyO = document.getElementById("DruhyO");
+var DIV2 = document.getElementById("DruhyO");
 
 var treti = document.getElementById("Treti");
-var tretiO = document.getElementById("TretiO");
+var DIV3 = document.getElementById("TretiO");
 
 
-prvni.addEventListener("click", Show.bind(prvniO, druhyO, tretiO));
-druhy.addEventListener("click", Show.bind(druhyO, prvniO, tretiO));
-treti.addEventListener("click", Show.bind(tretiO, prvniO, druhyO));
+prvni.addEventListener("click", Show.bind(DIV1, DIV2, DIV3));
+druhy.addEventListener("click", Show.bind(DIV2, DIV1, DIV3));
+treti.addEventListener("click", Show.bind(DIV3, DIV1, DIV2));
 
 
 function Show (A, B, C) {
