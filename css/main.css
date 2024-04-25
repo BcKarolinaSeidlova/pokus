@@ -29,10 +29,10 @@ button {
   justify-content: center;
 }
 
-#PrvniO, #DruhyO, #TretiO {
+#DIV1, #DIV2, #DIV3 {
   display: none;
   flex-direction: row;
-  justify-items: center;
+  justify-content: center;
   background-color: ivory;
 }
 
